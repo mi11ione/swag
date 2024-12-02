@@ -21,7 +21,7 @@ struct CoolScroll: View {
             }
         }
         .safeAreaInset(edge: .bottom) {
-            Color.red.opacity(0.8).frame(height: rectHeight + 3)
+            Color.red.opacity(0.8).frame(height: rectHeight)
         }
     }
 }
